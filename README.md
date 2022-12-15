@@ -21,3 +21,5 @@ A file that outputs three important outputs for every trial/stimuli in the exper
 coordniates are saved as (x,y), and eyes are either 'left' or 'right'.
 detection of each trial is the actual dependant variable of this experiment. If the particpant sees the stimulus of that trial it is recorded as a 1. However if they did not see the stimulus it is record as a 0. 
 This file is named "Visual field Coordinates for subject('subject_nr')-('date').csv." The example file provided was called ["Visual field Coordinates for subject1-7-15-12-2022."](https://github.com/Nomesy/Final-project/blob/main/Visual%20field%20Coordinates%20for%20subject1-7-15-12-2022.csv)
+
+At the end of the code it runs some simple data analysis code that tells you the coordinates that were missed and the percentage of dots detected. This is more of a fun and interesting output than anything really that useful.
