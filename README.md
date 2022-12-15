@@ -4,7 +4,7 @@ This experiment is called the ['Visual Field Mapper.']()
 By Kyle S.
 
 
-## What does it do? and stimulus
+## What does it do? What does the paricipant do? and whats the stimulus?
 Normally the dots would cover the entire screen but for the sake of convenience and time I adjusted it so they only appear on the side the blind spot should be for each eye. This allows for less dots to be needed.
 1. The participant covers one of their eyes and with the other stares at the fixation cross without looking away or moving their head. 
 2. A series of blinking dots will appear in random positions on the window. 
