@@ -149,11 +149,11 @@ eyes = [0]*totalTrials
 #=====================
 #CREATION OF WINDOW AND STIMULI
 #=====================
-#this defines the monitor. it also defines and creates the window to 
+#this defines the monitor. it also defines and creates the window, which can be modified by GUI imputs because having the proper resolution is important for this experiment.
 mon = monitors.Monitor('myMonitor', width=35.56, distance=60)
 mon.setSizePix([exp_info['monitor width resolution'],exp_info['monitor height resolution']])
 win = visual.Window(monitor=mon, units='pix', size=(exp_info['monitor width resolution'],exp_info['monitor height resolution']), color=[-1,-1,-1])
-
+#this creates the stimulus and fixation cross that will be used in the experiment. the stim is 7 by 7 pixels large.
 stimCircle = visual.Circle(win, size=(7,7)) 
 fixation = visual.TextStim(win, text='+', height = 40, color='white')
 #=====================
