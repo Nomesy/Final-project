@@ -10,7 +10,7 @@ Normally the dots would cover the entire screen but for the sake of convenience 
 2. A series of blinking dots will appear in random positions on the window. 
 3. When they see a dot they hit the space bar. Each dot is present for only 0.5 seconds but the participants response can be recorded for a total of 1 second after the stimulus appears so there is a 0.5 second buffer.
 4. After all of the dots are presented for an eye it will present all of the dots simultaneously creating a map of dots. Red means you missed that dot and green means you detected it.
-5. After viewing the map this is repeated for the other eye
+5. After viewing the map this process is repeated for the other eye.
 
 ## Why?
 This experiment can be used to map the visual field for blind spots and detect where the blind spot might be in each eye. This can be useful for deminstrating the blind spot to those that are not aware of it already or for collelcting data about it, such size or location. 
